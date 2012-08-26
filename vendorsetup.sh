@@ -1,0 +1,2 @@
+add_lunch_combo cm_p509-eng
+add_lunch_combo cm_p509-userdebug
