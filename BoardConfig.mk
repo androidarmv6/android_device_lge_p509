@@ -8,10 +8,3 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/p509/bluetooth
 
 TARGET_BOOTLOADER_BOARD_NAME := p509
 TARGET_OTA_ASSERT_DEVICE := thunderg,p509
-
-USE_CAMERA_STUB := false
-
-# Enable ICS-backwards compatibility    
-COMMON_GLOBAL_CFLAGS += -DQCOM_ICS_COMPAT
-# Disable PIE since it breaks ICS camera blobs
-TARGET_DISABLE_ARM_PIE := true
