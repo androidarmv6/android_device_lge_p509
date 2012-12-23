@@ -1,4 +1,4 @@
-# Sample file to extract required files from an original LG P500 device
+# Sample file to extract required files from an original LG P509 device
 # This script is not required if you have the proprietary repository
 #
 # This file is the file list used by extract-files.sh
@@ -39,8 +39,6 @@ lib/libsnd.so
 
 ## AUDIO
 lib/libaudioeq.so
-lib/hw/audio.primary.p500.so 
-lib/hw/audio_policy.p500.so
 
 ## CAMERA
 lib/liboemcamera.so
@@ -56,4 +54,4 @@ etc/wl/rtecdc-mfgtest.bin
 
 ## HAL
 bin/ami304d
-lib/hw/sensors.p500.so
+lib/hw/sensors.p509.so
