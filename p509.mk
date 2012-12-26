@@ -5,6 +5,7 @@ $(call inherit-product, device/lge/msm7x27-common/device.mk)
 $(call inherit-product, vendor/lge/p509/p509-vendor.mk)
 $(call inherit-product, vendor/lge/msm7x27-common/msm7x27-common-vendor-blobs.mk)
 
+$(call inherit-product, device/mdpi-common/mdpi.mk)
 DEVICE_PACKAGE_OVERLAYS += device/lge/p509/overlay
 
 # p509 configs
