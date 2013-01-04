@@ -6,7 +6,7 @@ $(call inherit-product, device/lge/p509/p509.mk)
 
 TARGET_SCREEN_HEIGHT := 480
 TARGET_SCREEN_WIDTH := 320
-$(call inherit-product, vendor/cm/config/tiny.mk)
+$(call inherit-product, vendor/cm/config/mini.mk)
 
 # Overrides
 PRODUCT_NAME := cm_p509
