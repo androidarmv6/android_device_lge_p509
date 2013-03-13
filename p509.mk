@@ -17,11 +17,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.p509.rc:root/init.p509.rc \
     $(LOCAL_PATH)/ueventd.p509.rc:root/ueventd.p509.rc
 
-# p509 Audio
-PRODUCT_PACKAGES += \
-    audio_policy.p509 \
-    audio.primary.p509
-
 # Live wallpapers
 PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 PRODUCT_PACKAGES += \
