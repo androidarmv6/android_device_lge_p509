@@ -11,7 +11,8 @@ PRODUCT_COPY_FILES += \
 # p509 init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.p509.rc:root/init.p509.rc \
-    $(LOCAL_PATH)/ueventd.p509.rc:root/ueventd.p509.rc
+    $(LOCAL_PATH)/ueventd.p509.rc:root/ueventd.p509.rc \
+    $(LOCAL_PATH)/fstab.p509:root/fstab.p509
 
 # fm radio
 PRODUCT_PACKAGES += \
